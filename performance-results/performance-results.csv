@@ -1,3 +1,0 @@
-name,averageTime,sem,repeats,minValue,maxValue,earliestTime,latestTime
-GH-Startup,1359,266,3,1082,1891,"19/03/2021, 11:23:22","19/03/2021, 11:23:33"
-SF-Startup,2835,834,3,1828,4490,"19/03/2021, 11:23:24","19/03/2021, 11:23:34"

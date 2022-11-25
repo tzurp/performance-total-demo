@@ -1,9 +1,0 @@
-{"startDisplayTime":"19/03/2021, 11:23:19","instanceID":"inst1b6ead26532d1097c7c7d86c7a212c28"}
-{"name":"GH-Startup","id":"b645cc8ac324a3bc8f66e3bdcdd1926a","instanceId":"inst1b6ead26532d1097c7c7d86c7a212c28","startTime":1616145802379,"endTime":1616145804270,"startDisplayTime":"19/03/2021, 11:23:22","duration":1891,"isTestPassed":true}
-{"name":"SF-Startup","id":"358ab8a3ba6a651fdf168fed40c191e9","instanceId":"inst1b6ead26532d1097c7c7d86c7a212c28","startTime":1616145804270,"endTime":1616145808760,"startDisplayTime":"19/03/2021, 11:23:24","duration":4490,"isTestPassed":true}
-{"startDisplayTime":"19/03/2021, 11:23:28","instanceID":"inst1b6ead26532d1097c7c7d86c7a212c28"}
-{"name":"GH-Startup","id":"34a68385cd441f8fb0dd062a79fd977f","instanceId":"inst1b6ead26532d1097c7c7d86c7a212c28","startTime":1616145809591,"endTime":1616145810694,"startDisplayTime":"19/03/2021, 11:23:29","duration":1103,"isTestPassed":true}
-{"name":"SF-Startup","id":"ee69c4670688df0408c10c0463a36ae9","instanceId":"inst1b6ead26532d1097c7c7d86c7a212c28","startTime":1616145810694,"endTime":1616145812881,"startDisplayTime":"19/03/2021, 11:23:30","duration":2187,"isTestPassed":true}
-{"startDisplayTime":"19/03/2021, 11:23:32","instanceID":"inst1b6ead26532d1097c7c7d86c7a212c28"}
-{"name":"GH-Startup","id":"c6e8a23373ff6973d5b6dc7f9b8b7f43","instanceId":"inst1b6ead26532d1097c7c7d86c7a212c28","startTime":1616145813706,"endTime":1616145814788,"startDisplayTime":"19/03/2021, 11:23:33","duration":1082,"isTestPassed":true}
-{"name":"SF-Startup","id":"9b8a1c45ade46d3d801945e1695dbeec","instanceId":"inst1b6ead26532d1097c7c7d86c7a212c28","startTime":1616145814789,"endTime":1616145816617,"startDisplayTime":"19/03/2021, 11:23:34","duration":1828,"isTestPassed":true}
