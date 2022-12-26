@@ -1,8 +1,6 @@
 import {performancetotal} from "wdio-performancetotal-service";
-
 describe('suite-1', () => {
     for (let i = 0; i < 3; i++) {
-
         it(`Test GH vs. SF: Run ${i + 1}`, async () => {
             console.log("Test started");
 
