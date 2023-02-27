@@ -1,10 +1,10 @@
 import {performancetotal} from "wdio-performancetotal-service";
 describe('suite-1', () => {
     for (let i = 0; i < 3; i++) {
-        it(`Test GH vs. SF: Run ${i + 1}`, async () => {
+        it(`Test1 GH vs. SF: Run ${i + 1}`, async () => {
             console.log("Test started");
 
-            await browser.url("//t.me");
+            await browser.url("https://web.telegram.org/");
             
             performancetotal.sampleStart("GH-Startup");
             

@@ -10,7 +10,7 @@
     "typescript": "^4.9.4",
     "wdio-edgedriver-service": "^2.1.1",
     "wdio-geckodriver-service": "^4.0.0",
-    "wdio-performancetotal-service": "^3.0.0-0"
+    "wdio-performancetotal-service": "^3.0.0"
   },
   "scripts": {
     "wdio": "npx wdio wdio.conf.ts"
