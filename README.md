@@ -9,6 +9,6 @@ npm install
 and then:
 
 ```
-npx wdio run ./wdio.conf.js
+npx wdio run ./wdio.conf.ts
 ```
 
