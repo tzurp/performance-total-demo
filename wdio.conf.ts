@@ -6,7 +6,7 @@ export const config: WebdriverIO.Config = {
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
     tsConfigPath: './tsconfig.e2e.json',
-    
+
     //
     // ==================
     // Specify Test Files
@@ -45,16 +45,22 @@ export const config: WebdriverIO.Config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 6,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    capabilities: [{
+    capabilities: [
+        {
         browserName: 'chrome',
         'wdio:enforceWebDriverClassic': true
-    }],
+    },
+    {
+        browserName: 'MicrosoftEdge',
+        'wdio:enforceWebDriverClassic': true
+    }
+    ],
 
     //
     // ===================
@@ -111,7 +117,8 @@ export const config: WebdriverIO.Config = {
                 performanceResultsFileName: "performance-results",
                 dropResultsFromFailedTest: false,
                 performanceResultsDirectory: "performance-results-dir",
-                analyzeByBrowser: false
+                analyzeByBrowser: false,
+                recentDays: 0
             }]
     ],
     //
@@ -122,7 +129,7 @@ export const config: WebdriverIO.Config = {
     // Make sure you have the wdio adapter package for the specific framework installed
     // before running any tests.
     framework: 'mocha',
-    
+
     //
     // The number of times to retry the entire specfile when it fails as a whole
     // specFileRetries: 1,
