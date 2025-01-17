@@ -1,3 +1,5 @@
+import { justDoIt } from "./test/specs/just-do-it";
+
 export const config: WebdriverIO.Config = {
     //
     // ====================
@@ -119,6 +121,10 @@ export const config: WebdriverIO.Config = {
                 performanceResultsDirectory: "performance-results-dir",
                 analyzeByBrowser: false,
                 recentDays: 0
+            }],
+            ['cleanuptotal', {
+                logErrorsOnly: false,
+                customLoggerMethod: justDoIt
             }]
     ],
     //
