@@ -59,7 +59,7 @@ export const config: WebdriverIO.Config = {
         'wdio:enforceWebDriverClassic': true
     },
     {
-        browserName: 'MicrosoftEdge',
+        browserName: 'firefox',
         'wdio:enforceWebDriverClassic': true
     }
     ],
