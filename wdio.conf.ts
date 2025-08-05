@@ -119,7 +119,7 @@ export const config: WebdriverIO.Config = {
                 performanceResultsFileName: "performance-results",
                 dropResultsFromFailedTest: false,
                 performanceResultsDirectory: "performance-results-dir",
-                analyzeByBrowser: false,
+                analyzeByBrowser: true,
                 recentDays: 0
             }],
             ['cleanuptotal', {
